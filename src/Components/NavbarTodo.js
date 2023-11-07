@@ -81,7 +81,7 @@ import { Outlet, Link } from "react-router-dom";
                 <Link to="/login"> <Typography textAlign="center">Login</Typography></Link>
                 </MenuItem>
                 <MenuItem  onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">Sign Up</Typography>
+                 <Link to="/signup"> <Typography textAlign="center">Sign Up</Typography></Link>
                 </MenuItem>
              
             </Menu>
